@@ -1,0 +1,23 @@
+{
+    "name": "mapbender/about",
+    "description": "Mapbender About element",
+    "keywords": ["mapbender", "about"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Schmitz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mapbender\\About": "src/"
+        }
+    }
+}
