@@ -44,10 +44,10 @@ class AboutDialog extends Element
     {
         return array(
             'js' => array(
-                'mapbender.element.button.js',
+                '@MapbenderCoreBundle/Resources/public/mapbender.element.button.js',
                 '@FOMCoreBundle/Resources/public/js/widgets/popup.js',
                 'mapbender.element.aboutDialog.js'),
-            'css' => array('@MapbenderAboutBundle/Resources/public/sass/element/about_dialog.scss' ));
+            'css' => array('@MapbenderAboutBundle/Resources/public/sass/about_dialog.scss' ));
     }
 
     /**
